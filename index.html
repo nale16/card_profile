@@ -93,7 +93,30 @@
                 font-size: 30px;
             }
 
-            
+            .profile-stats{
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                background-color: #f0f0f0;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                transition: background-color 0.4s ease-out .1s;
+            }
+
+            .profile:hover .profile-stats{
+                transition-delay: 0.2s;
+            }
+
+            .profile-group{
+                box-sizing: border-box;
+                width: 33.3333%;
+                transition: border-color 0.4s ease-out .1s;
+                border-right: 1px solid #bdbdbd;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
         </style>
 
     </head>
